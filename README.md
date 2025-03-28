@@ -4,6 +4,10 @@
 
 GIT Sync plugin is a plugin developed by `xstarling` for data synchronization between local files and GITHUB and GITEE code repositories.
 
+## Changelog
+
+* please click to view the document: [Changelog](https://kdocs.cn/l/caGt3BWn9r5G?linkname=ihqHHyiJ56)
+
 ## Feature list
 > features list: [click here](https://kdocs.cn/l/caGt3BWn9r5G?linkname=k7VAb4Wx5b)
 + **🚧 Large File synchronization (under development)**

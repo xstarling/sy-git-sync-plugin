@@ -5,6 +5,10 @@
 
 GIT同步插件是一个由 `xstarling` 开发的用于本地文件和GITHUB、GITEE代码仓库平台进行数据同步的插件。
 
+## 更新日志
+
+* 请点击查看文档：[更新日志](https://kdocs.cn/l/caGt3BWn9r5G?linkname=ihqHHyiJ56)
+
 ## 功能列表
 > 功能列表：[点击查看](https://kdocs.cn/l/caGt3BWn9r5G?linkname=k7VAb4Wx5b)
 + **🚧大文件同步（开发中）**
