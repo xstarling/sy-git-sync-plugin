@@ -14,8 +14,21 @@ GIT Sync plugin is a plugin developed by `xstarling` for data synchronization be
   + 🚀 Combine git warehouse with Baidu web disk and Ali web disk, etc., to realize large file upload synchronization
 + **🚧 Function menu**
   + 🚀 Synchronization range:
-    + 👉 Workspace: In your workspace, important data is synced to git repositories
-    + 👉 Note files: In your workspace, data files stored in the 'data' directory will be synchronized to the git repository
+    + 👉 Workspace: In the workspace, important data is synchronized to the git repository
+    + 👉 data directory: In the workspace, data files stored in the 'data' directory are synchronized to the git repository
+    + 👉 Note files: Source Han Sans Notes files in the 'data' directory and 'asset' image resource files in the workspace
+
+  + 🚀 Synchronization policy:
+    + 👉 Auto-sync: The system 's auto-sync policy enables file comparison synchronization
+    + 👉 Manual synchronization: The pop-up box allows users to manually [Cloud override local], [Local override cloud], and check whether to force override or not
+    + 👉 Cloud Overwrite Local: Non-mandatory overwrite mode, overwrite local from a remote location, generate conflicting documents if document conflicts (pops up if you check generate conflicting documents option)
+    + 👉 Local Overwrite Cloud: Non-mandatory overwrite mode, overwrite from local to remote, generate conflicting documents if document conflicts occur (pops up if you check generate conflicting documents option)
+
+  + 🚀 Note format:
+    + 👉 Source Han Notes: Files synchronized to the remote repository are in Source Han format notes (Note files only, other files not supported)
+    + 👉markdown: Files synchronized to the remote repository are notes in markdown format (note files only, other files not supported)
+
+
   + 🚀 Synchronization mode:
     + 👉 Automatic synchronization: Data is periodically synchronized to the git repository according to the interval set on the setup screen
     + 👉 Manual synchronization: synchronization is performed only once when the system is started. Synchronization is not triggered when the system is shut down
@@ -63,3 +76,4 @@ The software (hereinafter referred to as "the Software") is developed by an indi
 3. Disclaimer: [click here](https://kdocs.cn/l/caGt3BWn9r5G?linkname=hMZxlMSs8z)
 4. The development progress: [click here](https://kdocs.cn/l/caGt3BWn9r5G?linkname=Emg3LXgDJp)
 5. Feedback communication: [👥 siyuan group - the git plug-in feedback (QQ group: 1015180920)](https://kdocs.cn/l/caGt3BWn9r5G?linkname=Ij7mC9wG6q)
+6. Common q&a: [FAQ document](https://kdocs.cn/l/cf8qSfWUdi1O)
