@@ -6,8 +6,15 @@
 GIT同步插件是一个由 `xstarling` 开发的用于本地文件和GITHUB、GITEE代码仓库平台进行数据同步的插件。
 
 ## 更新日志
+#### 历史版本更新
+* 请点击查看更新日志文档：[更新日志](https://kdocs.cn/l/caGt3BWn9r5G?linkname=ihqHHyiJ56)
 
-* 请点击查看文档：[更新日志](https://kdocs.cn/l/caGt3BWn9r5G?linkname=ihqHHyiJ56)
+#### 当前版本更新
+  1. 优化同步文件时冲突文件的生成路径
+  2. 优化数据从远端同步到本地后，出现ID未发现的问题，新增同步完成后，自动刷新文件树
+  3. 修复因为并发导致远端markdown文件，同步到本地时创建为思源文件时，笔记目录未创建而导致由markdown内容创建思源笔记失败
+  4. 修复当文档冲突点的数为偶数时，校验是否冲突出错
+  5. 新增切换笔记格式后，提示用户进行一次本地覆盖远端操作，使远端与本地数据保持一致
 
 ## 功能列表
 > 功能列表：[点击查看](https://kdocs.cn/l/caGt3BWn9r5G?linkname=k7VAb4Wx5b)
