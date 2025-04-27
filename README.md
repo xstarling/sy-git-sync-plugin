@@ -9,11 +9,7 @@ GIT Sync plugin is a plugin developed by `xstarling` for data synchronization be
   * please click to view the all document: [Changelog](https://kdocs.cn/l/caGt3BWn9r5G?linkname=ihqHHyiJ56)
 
 #### Current version update
-  1. Optimize the generation path of conflicting files when synchronizing files
-  2. After optimizing the data synchronization from the remote to the local, the issue of the ID not being discovered occurred. After the synchronization is completed, the file tree will be automatically refreshed
-  3. Fixed the issue where the creation of a Source Han note from the markdown content failed due to the note directory not being created when creating a remote markdown file as a Source Han file when synchronizing it to the local machine
-  4. Fixed the issue of checking for conflict errors when the number of conflict points in a document is even
-  5. After switching the note format, prompt the user to perform a local overwrite operation on the remote end to keep the data on the remote end consistent with that on the local end
+  1. Fixed the issue of failed network connection for the first synchronization of datagrams in a browser or docker deployment environment
 
 ## Feature list
 > features list: [click here](https://kdocs.cn/l/caGt3BWn9r5G?linkname=k7VAb4Wx5b)
