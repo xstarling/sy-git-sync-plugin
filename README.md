@@ -9,13 +9,19 @@ GIT Sync plugin is a plugin developed by `xstarling` for data synchronization be
   * please click to view the all document: [Changelog](https://kdocs.cn/l/caGt3BWn9r5G?linkname=ihqHHyiJ56)
 
 #### Current version update
-  1. Fixed the issue of failed network connection for the first synchronization of datagrams in a browser or docker deployment environment
+  1. When exporting a markdown file from Siyuan Notes, a title will be added by default.
+  2. A new "Refresh Work Tree" button has been added. Manually click it to trigger the refresh of the work tree, avoiding the system restart caused by refreshing the work tree after each synchronization.
+  3. The error prompt information and log recording of the synchronization plugin have been optimized.
+  4. Fixed the issue where modifying the note format during synchronization would result in empty remote data.
+  5. The settings interface has been optimized to be compatible with both cloud disk and git platform synchronization (the specific data synchronization is still under development).
 
 ## Feature list
 > features list: [click here](https://kdocs.cn/l/caGt3BWn9r5G?linkname=k7VAb4Wx5b)
 + **🚧 Large File synchronization (under development)**
   + 🚀 Combine git warehouse with Baidu web disk and Ali web disk, etc., to realize large file upload synchronization
 + **🚧 Function menu**
+  + 🚀 Start Synchronization: Initiate data synchronization between local and remote
+  + 🚀 Refresh Worktree: If after synchronization, newly added local files show the issue of "ID not found!", the problem can be resolved by refreshing the worktree.
   + 🚀 Synchronization range:
     + 👉 Workspace: In the workspace, important data is synchronized to the git repository
     + 👉 data directory: In the workspace, data files stored in the 'data' directory are synchronized to the git repository
